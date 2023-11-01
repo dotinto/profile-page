@@ -16,6 +16,7 @@ body {
     background-size: 100% 100%;
 }
 .profile-avatar {
+    margin-top: 6%;
     border-radius: 50%;
     background: var(--avatarURL);
     width: 155px;
@@ -46,12 +47,11 @@ div.profile-card > span {
     color: #fff;
 }
 span.profile-occupation {
-    position: relative;
-    top: 1%;
+    margin-top: 3%;
+    font-size: 18px;
 }
 span.profile-nickname {
-    position: relative;
-    top: -1%;
+    top: 0;
 }
 span.profile-email a span {
     position: relative;
@@ -63,6 +63,11 @@ span.profile-email a img {
 span.profile-email a {
     text-decoration: none;
     color: white
+}
+span.profile-email {
+    position: relative;
+    top: 10%;
+
 }
 span.profile-name {
     font-size: 24px;
@@ -83,6 +88,6 @@ div.socials {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 25%;
     width: 100%;
 }
