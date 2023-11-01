@@ -9,4 +9,4 @@ git clone https://github.com/dotinto/profile-page
 2. Open `config.js` file and set the required values
 
 # Example
-![example](https://imgur.com/nh7E5kD.png)
+![example](https://imgur.com/1tlj2jJ.png)
