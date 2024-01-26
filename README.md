@@ -46,4 +46,5 @@ Patch 1:<br />
 
 
 # Example
-![example](https://imgur.com/xgMuJcv.png)
+[mobile](https://imgur.com/UChS1hY.png)
+[desktop](https://imgur.com/u3sekQX)
