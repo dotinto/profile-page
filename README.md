@@ -27,6 +27,8 @@ Initial:<br />
 Patch 1:<br />
 `address`<br />
 `phoneNumber`<br />
+`age`<br />
+`aboutMe`<br />
 `background.backgroundTrasparentBlack`<br />
 `background.backgroundAlphaChannel`<br />
 `avatar.avatarBorderRadius`<br />
