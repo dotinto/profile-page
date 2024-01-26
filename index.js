@@ -1,8 +1,6 @@
 const compStyleEl = document.querySelector("link#comp_style")
 if (window.innerWidth < 768) { // resolution handler
     compStyleEl.setAttribute("href", "assets/compatible-css/mobile.css")
-} else if (window.innerWidth >= 768 && window.innerWidth < 1024) {
-    compStyleEl.setAttribute("href", "assets/compatible-css/tablet.css")
 } else if (window.innerWidth > 1024) {
     compStyleEl.setAttribute("href", "assets/compatible-css/desktop.css")
 }
@@ -71,7 +69,7 @@ setStyle("span.profile-occupation", `
     font-size: calc(${config.card.cardFontSize}px);font-weight: ${config.card.cardFontWeight};color: ${config.card.cardTextColor}
 `)
 setStyle("span.profile-aboutme", `
-    font-size: clamp(${config.card.cardFontSize - 10}px, ${config.card.cardFontSize}px, ${config.card.cardFontSize + 10}px)
+    font-size: clamp(${config.card.cardFontSize - 10}px, ${config.card.cardFontSize}px, ${config.card.cardFontSize + 10}px);
     font-weight: ${config.card.cardFontWeight - 100};
     color: ${config.card.cardTextColor}
 `)

@@ -65,8 +65,8 @@ div.contact span.profile-email span {
 }
 span.profile-aboutme {
     width: 95%;
-    text-align: center;
     margin: 2% 0;
+    text-align: left
 }
 div.contact span.profile-email img, div.contact span.profile-location img, div.contact span.profile-phone img, div.contact span.profile-website img {
     filter: invert(1);
