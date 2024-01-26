@@ -22,10 +22,10 @@ git clone https://github.com/dotinto/profile-page
 
 # Stylization
 ### Options
-Initial:
+Initial:<br />
 `backgroundURL`<br />
 `avatarURL`<br />
-Patch 1:
+Patch 1:<br />
 `backgroundTrasparentBlack`<br />
 `BackgroundAlphaChannel`<br />
 `avatarBorderRadius`<br />
