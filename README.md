@@ -20,12 +20,13 @@ git clone https://github.com/dotinto/profile-page
 1. Open `profile-page-main` folder.
 2. Open `config.js` in any editor and set the required values following the instructions in the file.
 
-# Stylization
-### Options
+## Options
 Initial:<br />
 `backgroundURL`<br />
 `avatarURL`<br />
 Patch 1:<br />
+`address`<br />
+`phoneNumber`<br />
 `backgroundTrasparentBlack`<br />
 `BackgroundAlphaChannel`<br />
 `avatarBorderRadius`<br />
