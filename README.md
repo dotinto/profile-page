@@ -12,7 +12,7 @@ git clone https://github.com/dotinto/profile-page
 3. [Configure your site](https://github.com/dotinto/profile-page#configuration)
 
 ### Without Git
-1. Press green `Code` button, then tap `Download ZIP`.2
+1. Press green `Code` button, then tap `Download ZIP`.
 2. Extract .zip archive in any convenient place.
 3. [Configure your site](https://github.com/dotinto/profile-page#configuration)
 
