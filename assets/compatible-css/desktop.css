@@ -42,7 +42,7 @@ body {
     padding: 2%;
     top: 50%;
     transform: translateY(-50%);
-    box-shadow: 0 0 var(--cardShadowBlurRadius) var(--cardShadowSpreadRadius) rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 var(--cardShadowBlurRadius) var(--cardShadowSpreadRadius) var(--cardShadowColor);
 }
 div.container {
     justify-content: center;

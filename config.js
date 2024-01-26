@@ -59,8 +59,8 @@ const config = {
         // hex color (default = #000)
         cardShadowColor: "#000",
 
-        // shadow spread in px (default = 10)
-        cardShadowSpreadRadius: 10,
+        // shadow spread in px (default = 1)
+        cardShadowSpreadRadius: 1,
         
         // shadow blur in px (default = 10)
         cardShadowBlurRadius: 10,

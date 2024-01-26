@@ -41,6 +41,9 @@ setStyle(".profile-card", `
     --cardBackgroundColor: rgba(${cBC.r}, ${cBC.g}, ${cBC.b}, ${config.card.cardBackgroundAlphaChannel});
     --cardBorderRadius: ${config.card.cardBorderRadius}px;
     --cardBorderColor: ${config.card.cardBorderColor};
+    --cardShadowColor: ${config.card.cardShadowColor};
+    --cardShadowBlurRadius: ${config.card.cardShadowBlurRadius}px;
+    --cardShadowSpreadRadius: ${config.card.cardShadowSpreadRadius}px;
 `);
 
 setStyle(".background-image", `
