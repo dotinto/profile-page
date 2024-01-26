@@ -38,6 +38,8 @@ Patch 1:<br />
 `cardShadowColor`<br />
 `cardShadowSpreadRadius`<br />
 `cardShadowBlurRadius`<br />
+`cardFontSize`<br />
+`cardFontWeight`<br />
 
 
 # Example
