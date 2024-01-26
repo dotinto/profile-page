@@ -27,20 +27,20 @@ Initial:<br />
 Patch 1:<br />
 `address`<br />
 `phoneNumber`<br />
-`backgroundTrasparentBlack`<br />
-`BackgroundAlphaChannel`<br />
-`avatarBorderRadius`<br />
-`avatarBorderColor`<br />
-`cardBackgroundAlphaChannel`<br />
-`cardBackgroundColor`<br />
-`cardBorderRadius`<br />
-`cardBorderColor`<br />
-`cardTextColor`<br />
-`cardShadowColor`<br />
-`cardShadowSpreadRadius`<br />
-`cardShadowBlurRadius`<br />
-`cardFontSize`<br />
-`cardFontWeight`<br />
+`background.backgroundTrasparentBlack`<br />
+`background.backgroundAlphaChannel`<br />
+`avatar.avatarBorderRadius`<br />
+`avatar.avatarBorderColor`<br />
+`card.cardBackgroundAlphaChannel`<br />
+`card.cardBackgroundColor`<br />
+`card.cardBorderRadius`<br />
+`card.cardBorderColor`<br />
+`card.cardTextColor`<br />
+`card.cardShadowColor`<br />
+`card.cardShadowSpreadRadius`<br />
+`card.cardShadowBlurRadius`<br />
+`card.cardFontSize`<br />
+`card.cardFontWeight`<br />
 
 
 # Example
