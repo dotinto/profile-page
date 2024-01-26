@@ -20,5 +20,25 @@ git clone https://github.com/dotinto/profile-page
 1. Open `profile-page-main` folder.
 2. Open `config.js` in any editor and set the required values following the instructions in the file.
 
+# Stylization
+### Options
+Initial:
+`backgroundURL`<br />
+`avatarURL`<br />
+Patch 1:
+`backgroundTrasparentBlack`<br />
+`BackgroundAlphaChannel`<br />
+`avatarBorderRadius`<br />
+`avatarBorderColor`<br />
+`cardBackgroundAlphaChannel`<br />
+`cardBackgroundColor`<br />
+`cardBorderRadius`<br />
+`cardBorderColor`<br />
+`cardTextColor`<br />
+`cardShadowColor`<br />
+`cardShadowSpreadRadius`<br />
+`cardShadowBlurRadius`<br />
+
+
 # Example
 ![example](https://imgur.com/1tlj2jJ.png)
