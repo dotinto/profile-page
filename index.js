@@ -12,27 +12,9 @@ document.querySelector(".profile-email a").setAttribute("href", "mailto:" + conf
 
 const socials = ["github", "discord", "linkedin", "instagram", "facebook", "twitter"]
 
-if (config.socials.github !== "") {
-    document.querySelector("div.socials .github-link").setAttribute("href", config.socials.github)
-    document.querySelector("div.socials .github-link").classList.remove("_hidden")
-}
-if (config.socials.linkedin !== "") {
-    document.querySelector("div.socials .linkedin-link").setAttribute("href", config.socials.linkedin)
-    document.querySelector("div.socials .linkedin-link").classList.remove("_hidden")
-}
-if (config.socials.instagram !== "") {
-    document.querySelector("div.socials .instagram-link").setAttribute("href", config.socials.instagram)
-    document.querySelector("div.socials .instagram-link").classList.remove("_hidden")
-}
-if (config.socials.twitter !== "") {
-    document.querySelector("div.socials .twitter-link").setAttribute("href", config.socials.twitter)
-    document.querySelector("div.socials .twitter-link").classList.remove("_hidden")
-}
-if (config.socials.facebook !== "") {
-    document.querySelector("div.socials .facebook-link").setAttribute("href", config.socials.facebook)
-    document.querySelector("div.socials .facebook-link").classList.remove("_hidden")
-}
-if (config.socials.discord !== "") {
-    document.querySelector("div.socials .discord-link").setAttribute("href", config.socials.discord)
-    document.querySelector("div.socials .discord-link").classList.remove("_hidden")
-}
+socials.forEach(s => {
+    if (config.socials[s] !== "") {
+        document.querySelector(`div.socials .${s}-link`).setAttribute("href", config.socials[s])
+        document.querySelector(`div.socials .${s}-link`).classList.remove("_hidden")
+    }
+})
