@@ -17,7 +17,7 @@ git clone https://github.com/dotinto/profile-page
 3. [Configure your site](https://github.com/dotinto/profile-page#configuration)
 
 ## Configuration
-1. Open `profile-page-main` folder.
+1. Open `profile-page` folder.
 2. Open `config.js` in any editor and set the required values following the instructions in the file.
 
 ## Options
